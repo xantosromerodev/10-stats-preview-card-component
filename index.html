@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- etiquetas meta -->
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="Santos Romero" />
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/reducido.css">
+    <!-- fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend+Deca:wght@100..900&display=swap"
+        rel="stylesheet">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon" />
+    <!-- titulo -->
+    <title>Stats Preview Card Component | 100 days of projects</title>
+</head>
+
+<body class="bg-dark">
+
+    <section class="container my-5">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-md-10 d-flex justify-content-center">
+                <div class="card border-0 shadow custom-card">
+                    <div class="row g-0 flex-column flex-lg-row align-items-stretch">
+                        
+                        <div class="image-container col-lg-6 order-lg-2">
+                            <picture>
+                                <source srcset="./images/image-header-desktop.jpg" media="(min-width: 992px)">
+                                <source srcset="./images/image-header-desktop.jpg" media="(min-width: 768px)">
+                                <img src="./images/image-header-mobile.jpg" class="img-fluid rounded-top card-img"
+                                    alt="Imagen">
+                                <div class="overlay"></div>
+                            </picture>
+                        </div>
+
+                        <div class="col-lg-6 d-flex flex-column justify-content-center p-4 order-lg-1 text-center text-lg-start px-lg-5 p-4">
+                            <h1 class="fw-bold my-4">Get <span class="violet-color">insights</span> that help your
+                                business grow.</h1>
+                            <p class="card-text gray-color">Discover the benefits of data analytics and make better
+                                decisions
+                                regarding revenue, customer experience, and overall efficiency.</p>
+
+                            <ul class="list-group list-group-flush border-none d-flex flex-column flex-md-row">
+                                <li class="list-group-item ps-0 border-0">
+                                    <p class="fs-4 fw-bold">10k+</p>
+                                    <p class="text-uppercase gray-color">Companies</p>
+                                </li>
+                                <li class="list-group-item border-0">
+                                    <p class="fs-4 fw-bold">314</p>
+                                    <p class="text-uppercase gray-color">Templates</p>
+                                </li>
+                                <li class="list-group-item border-0">
+                                    <p class="fs-4 fw-bold">12M+</p>
+                                    <p class="text-uppercase gray-color">Queries</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
